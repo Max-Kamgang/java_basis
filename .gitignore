@@ -1,0 +1,78 @@
+# Fichier .gitignore standard pour les Projets Java
+
+### 1. Fichiers et Dossiers Générés par l'IDE (Ignorer) ###
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+target/   # Souvent utilisé par Maven/Eclipse pour les sorties
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+.nb-gradle/
+hs_err_pid*
+
+# VS Code (si utilisé)
+.vscode/
+
+### 2. Fichiers de Compilation et de Sortie ###
+
+# Fichiers de classes compilées (.class)
+*.class
+
+# Archives et livrables (JAR, WAR, EAR, etc.)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+
+# Fichiers log
+*.log
+log/
+logs/
+
+### 3. Outils de Build (Maven & Gradle) ###
+
+# Maven
+# Ne pas commiter les résultats de la construction ni les dépendances
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+/build/
+!gradle-wrapper.jar  # Conserver le wrapper Gradle pour que les autres puissent l'utiliser
+!/src/**/resources/META-INF/
+*.sublime-project
+*.sublime-workspace
+
+### 4. Fichiers Temporaires et OS ###
+
+# Fichiers temporaires générés par l'OS
+*~
+.#*
+*.swp
+*.bak
+*.orig
+*DS_Store
+Thumbs.db
