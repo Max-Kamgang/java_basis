@@ -1,11 +1,11 @@
-# 🚀 README - [Nom de votre Projet Java]
+# 🚀 README - Projet Java Pour Débutants
 
 ## 📝 Auteur et Informations Générales
 
-| Champ | Valeur |
+
 | :--- | :--- |
-| **Nom du Projet** | **[Tutoriel Pour les débutants en Java]** |
-| **Auteur** | **[Maxwell Brain]** |
+| **Nom du Projet** | **Tutoriel Pour les débutants en Java** |
+| **Auteur** | **Maxwell Brain** |
 | **Contact Auteur** | **maxwell256p@gmail.com** |
 | **Date de Génération** | **22 Novembre 2025** |
 
